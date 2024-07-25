@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from '../ui/button'
 
@@ -23,7 +22,7 @@ const Header = () => {
          
 
             <Button>
-                Learn More
+                Dashboard
             </Button>
          
         </div>
