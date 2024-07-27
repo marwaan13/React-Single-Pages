@@ -4,6 +4,8 @@ import Signup from "./pages/Signup";
 import HomePage from "./pages/HomePage";
 import MainComponent from "./pages/MainComponent";
 import DashboardContainer from "./Dashboard/DashboardContainer";
+import Counter from "./pages/Counter";
+
 
 const router = createBrowserRouter([
   {
@@ -22,6 +24,10 @@ const router = createBrowserRouter([
         path: "",
         element: <HomePage />,
       },
+      {
+        path : "counter",
+        element : <Counter />
+      }
     ]
   },
   {
