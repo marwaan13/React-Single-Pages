@@ -19,6 +19,9 @@ const Header = () => {
             <Link to={"/signin"} className='text-black hover:text-blue-700'>
                 Sign up
             </Link>
+            <Link to={"/todo"} className='text-black hover:text-blue-700'>
+                Todo app
+            </Link>
          
 
             <Button>

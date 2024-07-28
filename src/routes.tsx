@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import MainComponent from "./pages/MainComponent";
 import DashboardContainer from "./Dashboard/DashboardContainer";
 import Counter from "./pages/Counter";
+import TodoApp from "./pages/TodoApp";
 
 
 const router = createBrowserRouter([
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path : "counter",
         element : <Counter />
+      },
+      {
+        path : "todo",
+        element : <TodoApp/>
       }
     ]
   },
