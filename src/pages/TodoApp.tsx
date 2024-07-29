@@ -9,15 +9,12 @@ import { useFormik } from 'formik'
 import { useDispatch, useSelector } from 'react-redux'
 import * as yup from 'yup'
 import * as uuid from 'uuid'
-import { FormEvent } from 'react'
 
 
 const TodoApp = () => {
 
     const taskState = useSelector((state : RootState) => state.task)
     const dispatch = useDispatch<AppDispatch>()
-    
-
     const formik = useFormik({
         initialValues : {
             task : "",
